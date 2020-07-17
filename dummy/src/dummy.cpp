@@ -27,8 +27,7 @@ Dummy::Dummy(void)
 						getPluginVersion(),
 						getPluginAuthor(),
 						getPluginDescription(),
-
-						GlobalAttributes::PluginsDir +
+						GlobalAttributes::getPluginsDir() +
 						GlobalAttributes::DirSeparator +
 						QString("dummy") +
 						GlobalAttributes::DirSeparator + QString("dummy.png"));
